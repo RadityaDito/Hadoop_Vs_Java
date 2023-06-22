@@ -197,7 +197,7 @@ http://localhost:8088/cluster
 
 ## Graph
 
-![](https://hackmd.io/_uploads/HylrW6Zun.png)
+![]([https://hackmd.io/_uploads/HylrW6Zun.png](https://cdn.discordapp.com/attachments/1029063611366248501/1121445946643976282/image.png))
 
 ## Analysis
 
