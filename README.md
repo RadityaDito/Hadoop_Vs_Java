@@ -1,4 +1,4 @@
-#Wordcount Hadoop Vs Java
+# Wordcount Hadoop Vs Java
 
 ## Kelompok 9 - SBD 01
 
@@ -197,6 +197,16 @@ http://localhost:8088/cluster
 
 ## Graph
 
+![]([https://hackmd.io/_uploads/HylrW6Zun.png](https://cdn.discordapp.com/attachments/1029063611366248501/1121445946643976282/image.png))
+
 ## Analysis
 
+Jika dibandingkan, penghitungan kata (wordcount) menggunakan Java dan Hadoop memiliki perbedaan dalam hal waktu eksekusi. Penghitungan kata menggunakan Java cenderung lebih cepat karena data yang dihitung disimpan dan diproses di satu mesin atau server tunggal. Oleh karena itu, overhead yang terkait dengan pengaturan dan komunikasi antar node dalam cluster, seperti yang terjadi pada Hadoop, hanya sedikit. Selain itu, untuk ukuran file yang relatif kecil (10MB dan 100MB), penghitungan kata dengan Java dapat menyelesaikan tugas lebih cepat karena tidak melibatkan kompleksitas yang signifikan.
+
+Di sisi lain, Hadoop dirancang untuk memproses dan menganalisis data dalam skala besar dengan membagi tugas pemrosesan ke beberapa node dalam cluster. Hal ini mengakibatkan terjadinya overhead yang signifikan, terutama ketika digunakan pada platform terdistribusi dan data dengan ukuran besar.
+
+
+
 ## Conclusion
+
+Pada skala kecil, penghitungan kata biasa tanpa overhead (Java) komunikasi antar node memiliki kinerja yang lebih cepat. Namun, Hadoop menjadi pilihan yang lebih optimal pada skala besar dan pemrosesan yang luas, karena dirancang khusus untuk menangani pemrosesan data dalam skala besar dengan memanfaatkan kekuatan pemrosesan paralel pada beberapa node dalam cluster.
