@@ -9,6 +9,8 @@
 
 ## Pendahuluan
 
+Hadoop merupakan alat yang kuat untuk menganalisa big data. READMe ini akan mengandung cara meng-install Hadoop lalu akan menunjukkan data dari perbandingan nilai yang didapatkan untuk dari hasil memproses word count dengan hadoop dan Java, menganalisa hasil tersebut, dan mencapai suatu kesimpulan akhir yang bisa menjelaskan keseluruhan dari penggunaan Hadoop pada umumnya.
+
 ## Instalasi WSL
 
 Pada langkah ini, kita akan menginstal WSL dengan menggunakan Ubuntu 20.04.
@@ -190,14 +192,17 @@ http://localhost:8088/cluster
 
 ## Running Time Hadoop dan Java
 
-|        | 10 Mb  | 100 Mb | 500 Mb | 1 Gb   | 10 Gb   |
-| :----- | :----- | :----- | :----- | :----- | :------ |
-| Hadoop | 21 s   | 24 s   | 52 s   | 1m 16s | 5m 54s  |
-| Java   | 1.42 s | 7.71 s | 1m 6s  | 1m 18s | 11m 54s |
+|File Size| Time with Framework (seconds) | Ratio   |
+| :------ |     Java     |     Hadoop     | :------ | 
+| 10 Mb   |     1.42     |       21       |  14.78  |
+| 100 Mb  |     7.71     |       24       |  3.11   |
+| 500 Mb  |     66       |       52       |  0.78   |
+| 1 Gb    |     78       |       76       |  0.97   |
+| 10 Gb   |     714      |       354      |  0.49   |
 
 ## Graph
 
-![]([https://hackmd.io/_uploads/HylrW6Zun.png](https://cdn.discordapp.com/attachments/1029063611366248501/1121445946643976282/image.png))
+![](https://cdn.discordapp.com/attachments/1029063611366248501/1121445946643976282/image.png)
 
 ## Analysis
 
