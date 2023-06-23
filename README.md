@@ -193,7 +193,8 @@ http://localhost:8088/cluster
 ## Running Time Hadoop dan Java
 
 |File Size| Time with Framework (seconds) | Ratio   |
-| :------ |     Java     |     Hadoop     | :------ | 
+| :------ | :----------- | :------------- | :------ | 
+|         |     Java     |     Hadoop     |         |
 | 10 Mb   |     1.42     |       21       |  14.78  |
 | 100 Mb  |     7.71     |       24       |  3.11   |
 | 500 Mb  |     66       |       52       |  0.78   |
