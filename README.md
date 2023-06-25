@@ -3,9 +3,9 @@
 ## Kelompok 9 - SBD 01
 
 - Raditya Ihsan Dhiaulhaq (2106733912)
-- Naufal Febriyanto
-- Rian Abrar
-- Michael Winston
+- Naufal Febriyanto (2106702674)
+- Rian Abrar (2106708242)
+- Michael Winston (2106731270)
 
 ## Pendahuluan
 
@@ -192,7 +192,13 @@ http://localhost:8088/cluster
 
 ## Running Time Hadoop dan Java
 
-![](https://cdn.discordapp.com/attachments/1029063611366248501/1121445797658112070/image.png)
+| File Size | Time (Java) (s) | Time (Hadoop) (s) | Ratio |
+| --------- | --------------- | ----------------- | ----- |
+| 10MB      | 1.42            | 21                | 14.78 |
+| 100MB     | 7.71            | 24                | 3.11  |
+| 500MB     | 66              | 52                | 0.78  |
+| 1GB       | 78              | 76                | 0.97  |
+| 10GB      | 714             | 354               | 0.49  |
 
 ## Graph
 
@@ -203,8 +209,6 @@ http://localhost:8088/cluster
 Jika dibandingkan, penghitungan kata (wordcount) menggunakan Java dan Hadoop memiliki perbedaan dalam hal waktu eksekusi. Penghitungan kata menggunakan Java cenderung lebih cepat karena data yang dihitung disimpan dan diproses di satu mesin atau server tunggal. Oleh karena itu, overhead yang terkait dengan pengaturan dan komunikasi antar node dalam cluster, seperti yang terjadi pada Hadoop, hanya sedikit. Selain itu, untuk ukuran file yang relatif kecil (10MB dan 100MB), penghitungan kata dengan Java dapat menyelesaikan tugas lebih cepat karena tidak melibatkan kompleksitas yang signifikan.
 
 Di sisi lain, Hadoop dirancang untuk memproses dan menganalisis data dalam skala besar dengan membagi tugas pemrosesan ke beberapa node dalam cluster. Hal ini mengakibatkan terjadinya overhead yang signifikan, terutama ketika digunakan pada platform terdistribusi dan data dengan ukuran besar.
-
-
 
 ## Conclusion
 
