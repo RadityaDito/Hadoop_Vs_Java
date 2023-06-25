@@ -1,6 +1,6 @@
 # Wordcount Hadoop Vs Java
 
-## Kelompok 9 - SBD 01
+## K1 Group 7
 
 - Raditya Ihsan Dhiaulhaq (2106733912)
 - Naufal Febriyanto (2106702674)
